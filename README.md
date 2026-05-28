@@ -49,21 +49,26 @@ A plataforma busca proporcionar uma experiência intuitiva para usuários que de
 
 ## Estrutura do Projeto
 
-```bash
-lumiere/
+Lumi-re/
 │
-├── assets/
-│   ├── images/
-│   ├── icons/
-│   └── fonts/
+├── imagens/
+│   ├── posters/
+│   └── icones/
 │
-├── pages/
+├── estilos/
+│   └── visual.css
 │
 ├── scripts/
-│   └── script.js
+│   ├── sistema.js
+│   ├── favoritos.js
+│   └── filmes.js
 │
-├── styles/
-│   └── style.css
+├── paginas/
+│   ├── filme.html
+│   └── favoritos.html
+│
+├── banco-de-filmes/
+│   └── filmes.json
 │
 ├── index.html
 ├── README.md
