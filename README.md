@@ -2,7 +2,7 @@
 A plataforma permite que os usuários pesquisem títulos, visualizem informações detalhadas, acompanhem avaliações e encontrem novas recomendações baseadas em seus interesses.  
 #  Lumière
 
-<div align="center">
+<div aling="center">
 
 ## Uma plataforma para amantes do cinema 
 
@@ -109,7 +109,7 @@ O projeto foi criado com o objetivo de:
 
 ---
 
-<div align="center">
+<div aling="center">
 
  Se gostou do projeto, deixe uma estrela no repositório!
 
