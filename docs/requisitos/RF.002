@@ -1,0 +1,12 @@
+RF.002 – Cadastro de Usuário
+Cadastro de Usuário
+
+COMO visitante da plataforma Lumière,
+QUERO criar uma conta no sistema
+PARA que eu possa salvar filmes favoritos e acessar recomendações personalizadas.
+
+Critérios de Aceitação:
+Deve ser possível informar nome, e-mail e senha
+O sistema deve validar se o e-mail já está cadastrado
+A senha deve possuir no mínimo 8 caracteres
+O cadastro deve ser concluído apenas com todos os campos obrigatórios preenchidos

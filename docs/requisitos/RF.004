@@ -1,0 +1,12 @@
+RF.004 – Pesquisa de Filmes
+Pesquisa de Filmes
+
+COMO usuário da plataforma Lumière,
+QUERO pesquisar filmes no catálogo
+PARA encontrar rapidamente conteúdos do meu interesse.
+
+Critérios de Aceitação:
+Deve ser possível pesquisar por título do filme
+Deve ser possível filtrar por gênero e ano de lançamento
+O sistema deve exibir resultados relacionados à busca realizada
+O sistema deve informar quando nenhum filme for encontrado

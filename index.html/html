@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunara</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Lunara</h1>
+  </header>
+
+  <main id="movies">
+
+    <div class="movie-card">
+      <img src="imagens/(2014)_ Interestelar.jpg">
+
+      <h2>Interestelar</h2>
+
+      <p>Ficção Científica</p>
+
+      <button>Favoritar</button>
+    </div>
+
+  </main>
+
+</body>
+</html>

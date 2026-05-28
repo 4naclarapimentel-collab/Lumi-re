@@ -1,0 +1,12 @@
+RF.001 – Cadastro de Filme
+Cadastro de Filme
+
+COMO Administrador da plataforma Lumière,
+QUERO cadastrar novos filmes no sistema
+PARA que os usuários possam visualizar e acessar o catálogo atualizado.
+
+Critérios de Aceitação:
+Deve ser possível informar o título do filme
+Deve ser possível informar gênero, duração e ano de lançamento
+O sistema deve impedir cadastro de filmes com o mesmo título e ano
+O sistema deve validar que a duração do filme seja maior que zero

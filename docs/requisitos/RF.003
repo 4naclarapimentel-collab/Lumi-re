@@ -1,0 +1,12 @@
+RF.003 – Avaliação de Filmes
+Avaliação de Filmes
+
+COMO usuário autenticado,
+QUERO avaliar filmes com notas e comentários
+PARA compartilhar minha opinião com outros usuários.
+
+Critérios de Aceitação:
+Deve ser possível atribuir notas de 1 a 5 estrelas
+Deve ser possível adicionar comentários ao filme
+O sistema deve impedir avaliações duplicadas do mesmo usuário para o mesmo filme
+O comentário não pode ser vazio
