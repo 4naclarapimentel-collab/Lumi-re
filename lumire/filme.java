@@ -1,36 +1,50 @@
 // ==============================
 // Classe Filme
 // ==============================
+
+    package br.edu.ifrn.lumiere.modelo;
+
+/**
+ * Entidade que representa um Filme do catálogo Lumière.
+ * Mapeia diretamente os dados da tabela 'filme' e abrange o requisito RF.001.
+ */
 public class Filme {
+
+    private Long id; // Identificador correspondente à Chave Primária do MySQL
     private String titulo;
     private String genero;
-    private int duracao;
+    private int duracaoMin;
     private int anoLancamento;
 
-    public Filme(String titulo, String genero, int duracao, int anoLancamento) {
-        if (duracao <= 0) {
-            throw new IllegalArgumentException("A duração deve ser maior que zero.");
-        }
+    public Filme() {}
 
+    public Filme(String titulo, String genero, int duracaoMin, int anoLancamento) {
         this.titulo = titulo;
         this.genero = genero;
-        this.duracao = duracao;
+        this.duracaoMin = duracaoMin;
         this.anoLancamento = anoLancamento;
     }
 
-    public String getTitulo() {
-        return titulo;
-    }
+    // Getters e Setters
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
 
-    public int getAnoLancamento() {
-        return anoLancamento;
-    }
+    public String getTitulo() { return titulo; }
+    public void setTitulo(String titulo) { this.titulo = titulo; }
 
-    public void exibirFilme() {
-        System.out.println("Título: " + titulo);
-        System.out.println("Gênero: " + genero);
-        System.out.println("Duração: " + duracao + " min");
-        System.out.println("Ano: " + anoLancamento);
+    public String getGenero() { return genero; }
+    public void setGenero(String genero) { this.genero = genero; }
+
+    public int getDuracaoMin() { return duracaoMin; }
+    public void setDuracaoMin(int duracaoMin) { this.duracaoMin = duracaoMin; }
+
+    public int getAnoLancamento() { return anoLancamento; }
+    public void setAnoLancamento(int anoLancamento) { this.anoLancamento = anoLancamento; }
+
+    @Override
+    public String toString() {
+        return "Filme{id=" + id + ", titulo='" + titulo + "', genero='" + genero +
+               "', duracaoMin=" + duracaoMin + ", anoLancamento=" + anoLancamento + "}";
     }
 }
     
